@@ -17,7 +17,7 @@ export const useLocalizationStore = defineStore("localizationStore", {
       { img_src: "/flags/en-us.png", country_code: "EN-US", i18n: "en" },
       { img_src: "/flags/zh-chs.png", country_code: "ZH-CHS", i18n: "zh-chs" },
       { img_src: "/flags/zh-cht.png", country_code: "ZH-CHT", i18n: "zh-cht" },
-      { img_src: "/flags/ms-my.png", country_code: "MS-MY", i18n: "es" },
+      { img_src: "/flags/ms-my.png", country_code: "MS-MY", i18n: "my" },
     ],
     selected_locale: {
       img_src: "/flags/en-us.png",

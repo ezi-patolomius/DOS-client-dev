@@ -7,7 +7,7 @@ const { game_filters } = storeToRefs(useGameFiltersStore());
 
 <template>
   <nav
-    class="w-full h-full max-h-[68px] bg-secondary flex justify-between items-center py-2 px-5 md:px-10 xl:px-[120px]"
+    class="w-full h-full max-h-[68px] bg-secondary flex justify-between items-center py-2 px-5 md:px-10 xl:px-[120px] border-b border-[#163041]"
   >
     <div class="inline-flex items-center">
       <div

@@ -11,7 +11,7 @@ import { autoAnimatePlugin } from "@formkit/auto-animate/vue";
 import "@/main.css";
 
 import en from "@/lib/locales/en.json";
-import es from "@/lib/locales/es.json";
+import my from "@/lib/locales/my.json";
 import zhChs from "@/lib/locales/zh-chs.json";
 import zhCht from "@/lib/locales/zh-cht.json";
 
@@ -20,7 +20,7 @@ const i18n = createI18n({
   locale: "en",
   fallbackLocale: "en",
   globalInjection: true,
-  messages: { en, es, "zh-chs": zhChs, "zh-cht": zhCht },
+  messages: { en, my, "zh-chs": zhChs, "zh-cht": zhCht },
 });
 
 const app = createApp(App);
